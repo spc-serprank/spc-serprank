@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://spc-serprank.github.io">🧰 41 live tools</a> &nbsp;·&nbsp;
-  <a href="https://github.com/spc-serprank?tab=repositories">📦 Repos</a> &nbsp;·&nbsp;
+  <a href="https://seoprocheck.github.io">🧰 41 live tools</a> &nbsp;·&nbsp;
+  <a href="https://github.com/seoprocheck?tab=repositories">📦 Repos</a> &nbsp;·&nbsp;
   <a href="https://seoprocheck.com">🌐 seoprocheck.com</a>
 </p>
 
@@ -30,14 +30,14 @@ No sign-ups. No "book a demo." No 14-day trial that charges your card. Clone it,
 ### 🧰 41 free SEO &amp; GEO tools — live in your browser
 
 <p>
-  <a href="https://spc-serprank.github.io"><strong>▶ spc-serprank.github.io</strong></a> — a searchable hub of <strong>41 client-side tools</strong>: schema generators, SERP &amp; social previews, robots/hreflang/sitemap builders, AI-crawler &amp; llms.txt tools, content analyzers, and developer utilities. Pure static HTML/JS — no backend, no tracking, nothing to break.
+  <a href="https://seoprocheck.github.io"><strong>▶ seoprocheck.github.io</strong></a> — a searchable hub of <strong>41 client-side tools</strong>: schema generators, SERP &amp; social previews, robots/hreflang/sitemap builders, AI-crawler &amp; llms.txt tools, content analyzers, and developer utilities. Pure static HTML/JS — no backend, no tracking, nothing to break.
 </p>
 
 ### ⭐ Featured tools — command-line
 
 <table>
 <tr>
-<td width="30%"><strong><a href="https://github.com/spc-serprank/ai-crawler-audit">ai-crawler-audit</a></strong></td>
+<td width="30%"><strong><a href="https://github.com/seoprocheck/ai-crawler-audit">ai-crawler-audit</a></strong></td>
 <td>Audit any site's <code>robots.txt</code> for <strong>AI/LLM crawler policy</strong>. Most sites that "block AI" only block GPTBot — meanwhile ClaudeBot, PerplexityBot, Google-Extended and 20+ others walk right in. This shows the gap in one command. Tracks 27 AI crawlers across training, AI-search, and assistant-fetch. Zero dependencies.</td>
 </tr>
 </table>
@@ -59,9 +59,9 @@ A growing set of single-purpose tools across the modern search stack. **Shipped*
 
 | Tool | What it does | Status |
 |---|---|---|
-| **[ai-crawler-audit](https://github.com/spc-serprank/ai-crawler-audit)** | Which of 27 AI bots your `robots.txt` really allows/blocks | ✅ **Shipped** |
-| **[llms-txt-kit](https://github.com/spc-serprank/llms-txt-kit)** | Validate + generate the emerging `llms.txt` standard | ✅ **Shipped** |
-| **[hreflang-check](https://github.com/spc-serprank/hreflang-check)** | Language-aware hreflang reciprocity validator | ✅ **Shipped** |
+| **[ai-crawler-audit](https://github.com/seoprocheck/ai-crawler-audit)** | Which of 27 AI bots your `robots.txt` really allows/blocks | ✅ **Shipped** |
+| **[llms-txt-kit](https://github.com/seoprocheck/llms-txt-kit)** | Validate + generate the emerging `llms.txt` standard | ✅ **Shipped** |
+| **[hreflang-check](https://github.com/seoprocheck/hreflang-check)** | Language-aware hreflang reciprocity validator | ✅ **Shipped** |
 | **content-decay** | Flag pages bleeding impressions — with *enrich, don't prune* guidance | 🔨 Building |
 | **serp-schema-gap** | Compare your schema against the pages outranking you | 📋 Planned |
 | **redirect-chain-fixer** | Find chains/loops, output ready-to-paste `.htaccess`/nginx rules | 📋 Planned |
