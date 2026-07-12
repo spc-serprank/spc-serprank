@@ -1,49 +1,102 @@
-<h1 align="center">SEO Pro Check</h1>
+<div align="center">
 
-<p align="center">
-  <strong>Open-source SEO &amp; AI-search tooling — built by a practitioner, not a marketer.</strong><br>
-  <em>Small, sharp, zero-fluff tools for the search era that's actually happening: Google, Bing, and the AI answer engines.</em>
-</p>
+# SEO Pro Check
 
-<p align="center">
-  <a href="https://seoprocheck.github.io">🧰 41 live tools</a> &nbsp;·&nbsp;
-  <a href="https://github.com/seoprocheck?tab=repositories">📦 Repos</a> &nbsp;·&nbsp;
-  <a href="https://seoprocheck.com">🌐 seoprocheck.com</a>
-</p>
+Free, open-source tools for technical SEO and AI search.<br>
+Built in public by a search practitioner — 20 years in, still shipping.
 
-<p align="center">
-  <img alt="Focus" src="https://img.shields.io/badge/focus-SEO%20%2B%20GEO%2FAEO-6E56CF">
-  <img alt="20 years" src="https://img.shields.io/badge/experience-20%2B%20years%20in%20search-111111">
-  <img alt="Style" src="https://img.shields.io/badge/tools-zero%20fluff%2C%20zero%20bloat-2EA043">
-</p>
+[seoprocheck.com](https://seoprocheck.com) · [**41 browser tools →**](https://seoprocheck.github.io) · [repositories](https://github.com/seoprocheck?tab=repositories)
+
+</div>
 
 ---
 
-### 👋 What this is
+Every tool here does one job well, runs with **zero dependencies**, and never asks for a sign-up. The command-line tools are plain Python — clone and run. The browser tools are static pages — open and use. All MIT.
 
-Twenty years in the trenches of technical and content SEO — for global brands and small sites alike — distilled into **free, focused tools you can actually run.** Each one does a single job that a bloated all-in-one suite buries three menus deep, and each is built for **where search is going**: not just Googlebot, but ChatGPT, Perplexity, Claude, Gemini, and Google's AI Overviews.
+## Command-line tools
 
-No sign-ups. No "book a demo." No 14-day trial that charges your card. Clone it, run it, own the output.
+<details open>
+<summary><strong>AI crawlers &amp; answer engines</strong> — the GEO toolkit</summary>
+<br>
 
----
+| | Tool | What it does |
+|:-:|------|--------------|
+| <img src="icons/ai-crawler-audit.svg" width="20" alt=""> | [ai-crawler-audit](https://github.com/seoprocheck/ai-crawler-audit) | Which of 27 AI bots your `robots.txt` really allows or blocks — real matching rules, not substring guesses |
+| <img src="icons/llms-txt-kit.svg" width="20" alt=""> | [llms-txt-kit](https://github.com/seoprocheck/llms-txt-kit) | Validate and generate `llms.txt`, the map that tells AI models what your site is |
+| <img src="icons/log-crawl-analyzer.svg" width="20" alt=""> | [log-crawl-analyzer](https://github.com/seoprocheck/log-crawl-analyzer) | Crawl-budget report from your server logs — Googlebot to GPTBot, waste % included |
+| <img src="icons/ai-overview-checker.svg" width="20" alt=""> | ai-overview-checker | Which of your keywords trigger AI Overviews, and whether you're cited *(planned)* |
+| <img src="icons/geo-visibility-tracker.svg" width="20" alt=""> | geo-visibility-tracker | Share-of-voice inside ChatGPT / Perplexity / Gemini answers over time *(planned)* |
 
-### 🧰 41 free SEO &amp; GEO tools — live in your browser
+</details>
 
-<p>
-  <a href="https://seoprocheck.github.io"><strong>▶ seoprocheck.github.io</strong></a> — a searchable hub of <strong>41 client-side tools</strong>: schema generators, SERP &amp; social previews, robots/hreflang/sitemap builders, AI-crawler &amp; llms.txt tools, content analyzers, and developer utilities. Pure static HTML/JS — no backend, no tracking, nothing to break.
-</p>
+<details>
+<summary><strong>Search Console intelligence</strong> — what GSC won't show you directly</summary>
+<br>
 
-### ⭐ Featured tools — command-line
+| | Tool | What it does |
+|:-:|------|--------------|
+| <img src="icons/content-decay.svg" width="20" alt=""> | [content-decay](https://github.com/seoprocheck/content-decay) | Finds pages bleeding traffic, diagnoses why, prescribes enrichment — never pruning |
+| <img src="icons/cannibalization-map.svg" width="20" alt=""> | [cannibalization-map](https://github.com/seoprocheck/cannibalization-map) | Finds your URLs competing for the same query, with a concrete consolidate/differentiate call |
 
-<table>
-<tr>
-<td width="30%"><strong><a href="https://github.com/seoprocheck/ai-crawler-audit">ai-crawler-audit</a></strong></td>
-<td>Audit any site's <code>robots.txt</code> for <strong>AI/LLM crawler policy</strong>. Most sites that "block AI" only block GPTBot — meanwhile ClaudeBot, PerplexityBot, Google-Extended and 20+ others walk right in. This shows the gap in one command. Tracks 27 AI crawlers across training, AI-search, and assistant-fetch. Zero dependencies.</td>
-</tr>
-</table>
+</details>
+
+<details>
+<summary><strong>Technical SEO</strong> — redirects, hreflang, headers</summary>
+<br>
+
+| | Tool | What it does |
+|:-:|------|--------------|
+| <img src="icons/redirect-chain-fixer.svg" width="20" alt=""> | [redirect-chain-fixer](https://github.com/seoprocheck/redirect-chain-fixer) | Traces chains and loops, then emits the exact `.htaccess`/nginx rule that collapses each one |
+| <img src="icons/hreflang-check.svg" width="20" alt=""> | [hreflang-check](https://github.com/seoprocheck/hreflang-check) | Catches the missing return tag that makes Google ignore hreflang clusters — language-aware |
+
+</details>
+
+<details>
+<summary><strong>Structured data</strong> — beyond "is it valid"</summary>
+<br>
+
+| | Tool | What it does |
+|:-:|------|--------------|
+| <img src="icons/schema-gap.svg" width="20" alt=""> | [schema-gap](https://github.com/seoprocheck/schema-gap) | Diffs your schema against the pages outranking you — missing types and properties |
+| <img src="icons/bulk-schema-validator.svg" width="20" alt=""> | [bulk-schema-validator](https://github.com/seoprocheck/bulk-schema-validator) | Validates JSON-LD across a whole sitemap — required properties for 17 rich-result types |
+
+</details>
+
+<details>
+<summary><strong>Performance</strong> — the numbers Google actually ranks on</summary>
+<br>
+
+| | Tool | What it does |
+|:-:|------|--------------|
+| <img src="icons/cwv-field-vs-lab.svg" width="20" alt=""> | [cwv-field-vs-lab](https://github.com/seoprocheck/cwv-field-vs-lab) | CrUX field data vs Lighthouse lab, side by side — divergence flagged and explained |
+
+</details>
+
+## Browser tools
+
+<details>
+<summary><strong><img src="icons/browser-hub.svg" width="20" alt=""> 41 tools, live at seoprocheck.github.io</strong></summary>
+<br>
+
+No install, no tracking — everything runs client-side. [Open the hub →](https://seoprocheck.github.io)
+
+| Category | Tools |
+|----------|-------|
+| Schema & structured data | 6 generators — Article, FAQ, HowTo, Breadcrumb, Video, Event |
+| GEO & AI visibility | 5 — AI crawler checker, llms.txt generator, entity clarity, citations, AI readiness |
+| Technical SEO | 8 — robots.txt, hreflang, canonical, sitemap, redirects, headers |
+| Content analysis | 6 — SERP preview, density, headings, readability, gaps, word count |
+| Local SEO | 3 — review link, NAP consistency, LocalBusiness schema |
+| Social & meta | 4 — Open Graph, Twitter cards, meta tags, social preview |
+| Developer utilities | 9 — encoders, JSON, regex, UTM, slugs, timestamps |
+
+</details>
+
+## Example
 
 ```console
 $ python3 ai_crawler_audit.py example.com
+
   ● BLOCKED  GPTBot            OpenAI
   ○ allowed  ClaudeBot         Anthropic   (not named)   ← the silent gap
   ...
@@ -53,43 +106,6 @@ $ python3 ai_crawler_audit.py example.com
 
 ---
 
-### 🧰 The toolkit
-
-A growing set of single-purpose tools across the modern search stack. **Shipped** are live and runnable today; the rest are in active build order.
-
-| Tool | What it does | Status |
-|---|---|---|
-| **[ai-crawler-audit](https://github.com/seoprocheck/ai-crawler-audit)** | Which of 27 AI bots your `robots.txt` really allows/blocks | ✅ **Shipped** |
-| **[llms-txt-kit](https://github.com/seoprocheck/llms-txt-kit)** | Validate + generate the emerging `llms.txt` standard | ✅ **Shipped** |
-| **[hreflang-check](https://github.com/seoprocheck/hreflang-check)** | Language-aware hreflang reciprocity validator | ✅ **Shipped** |
-| **[content-decay](https://github.com/seoprocheck/content-decay)** | Flag pages bleeding search traffic — diagnosed, with *enrich, don't prune* fixes | ✅ **Shipped** |
-| **[cannibalization-map](https://github.com/seoprocheck/cannibalization-map)** | Find URLs competing for one query + a concrete merge call | ✅ **Shipped** |
-| **[redirect-chain-fixer](https://github.com/seoprocheck/redirect-chain-fixer)** | Find chains/loops, emit ready-to-paste `.htaccess`/nginx rules | ✅ **Shipped** |
-| **[cwv-field-vs-lab](https://github.com/seoprocheck/cwv-field-vs-lab)** | CrUX (real users) vs Lighthouse (lab), divergence flagged + explained | ✅ **Shipped** |
-| **[schema-gap](https://github.com/seoprocheck/schema-gap)** | Diff your structured data against the pages outranking you | ✅ **Shipped** |
-| **[bulk-schema-validator](https://github.com/seoprocheck/bulk-schema-validator)** | Validate JSON-LD across a whole sitemap — 17 rich-result types | ✅ **Shipped** |
-| **[log-crawl-analyzer](https://github.com/seoprocheck/log-crawl-analyzer)** | Crawl-budget report from server logs — search + AI bots, waste % | ✅ **Shipped** |
-| **ai-overview-checker** | Which of your keywords trigger AI Overviews — and are you cited | 📋 Planned |
-| **geo-visibility-tracker** | Share-of-voice inside ChatGPT/Perplexity/Gemini answers over time | 📋 Planned |
-
-<sub>10 CLI tools shipped, 41 more live in the browser hub — full roadmap in the repositories tab. Built in public — starring a repo bumps it up the queue.</sub>
-
----
-
-### 🛠️ Built with
-
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white">
-  <img alt="Google Search Console" src="https://img.shields.io/badge/Search%20Console-4285F4?logo=google&logoColor=white">
-  <img alt="Bing Webmaster" src="https://img.shields.io/badge/Bing%20WMT-008373?logo=microsoftbing&logoColor=white">
-  <img alt="MCP" src="https://img.shields.io/badge/Model%20Context%20Protocol-000000">
-</p>
-
-Data-driven SEO — Search Console & Bing WMT APIs, log-file analysis, structured data, Core Web Vitals, and AI-search/GEO measurement. Tools are built to be **composable and scriptable**, not locked in a dashboard.
-
----
-
-<p align="center">
-  <sub>Free & open source · MIT licensed · <a href="https://seoprocheck.com">seoprocheck.com</a></sub>
-</p>
+<div align="center">
+<sub>MIT licensed · no sign-ups, no telemetry, no "book a demo" · <a href="https://seoprocheck.com">seoprocheck.com</a></sub>
+</div>
