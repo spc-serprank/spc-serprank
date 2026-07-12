@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://seoprocheck.com">🌐 seoprocheck.com</a> &nbsp;·&nbsp;
-  <a href="https://github.com/spc-serprank?tab=repositories">📦 Tools</a> &nbsp;·&nbsp;
-  <a href="#the-toolkit">🧰 The toolkit</a>
+  <a href="https://spc-serprank.github.io">🧰 41 live tools</a> &nbsp;·&nbsp;
+  <a href="https://github.com/spc-serprank?tab=repositories">📦 Repos</a> &nbsp;·&nbsp;
+  <a href="https://seoprocheck.com">🌐 seoprocheck.com</a>
 </p>
 
 <p align="center">
@@ -27,7 +27,13 @@ No sign-ups. No "book a demo." No 14-day trial that charges your card. Clone it,
 
 ---
 
-### ⭐ Featured — live now
+### 🧰 41 free SEO &amp; GEO tools — live in your browser
+
+<p>
+  <a href="https://spc-serprank.github.io"><strong>▶ spc-serprank.github.io</strong></a> — a searchable hub of <strong>41 client-side tools</strong>: schema generators, SERP &amp; social previews, robots/hreflang/sitemap builders, AI-crawler &amp; llms.txt tools, content analyzers, and developer utilities. Pure static HTML/JS — no backend, no tracking, nothing to break.
+</p>
+
+### ⭐ Featured tools — command-line
 
 <table>
 <tr>
