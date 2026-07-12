@@ -62,13 +62,17 @@ A growing set of single-purpose tools across the modern search stack. **Shipped*
 | **[ai-crawler-audit](https://github.com/seoprocheck/ai-crawler-audit)** | Which of 27 AI bots your `robots.txt` really allows/blocks | ✅ **Shipped** |
 | **[llms-txt-kit](https://github.com/seoprocheck/llms-txt-kit)** | Validate + generate the emerging `llms.txt` standard | ✅ **Shipped** |
 | **[hreflang-check](https://github.com/seoprocheck/hreflang-check)** | Language-aware hreflang reciprocity validator | ✅ **Shipped** |
-| **content-decay** | Flag pages bleeding impressions — with *enrich, don't prune* guidance | 🔨 Building |
-| **serp-schema-gap** | Compare your schema against the pages outranking you | 📋 Planned |
-| **redirect-chain-fixer** | Find chains/loops, output ready-to-paste `.htaccess`/nginx rules | 📋 Planned |
-| **cwv-field-vs-lab** | CrUX (real users) vs Lighthouse (lab), divergence flagged | 📋 Planned |
-| **cannibalization-map** | Find URLs competing for one query + a merge call | 📋 Planned |
+| **[content-decay](https://github.com/seoprocheck/content-decay)** | Flag pages bleeding search traffic — diagnosed, with *enrich, don't prune* fixes | ✅ **Shipped** |
+| **[cannibalization-map](https://github.com/seoprocheck/cannibalization-map)** | Find URLs competing for one query + a concrete merge call | ✅ **Shipped** |
+| **[redirect-chain-fixer](https://github.com/seoprocheck/redirect-chain-fixer)** | Find chains/loops, emit ready-to-paste `.htaccess`/nginx rules | ✅ **Shipped** |
+| **[cwv-field-vs-lab](https://github.com/seoprocheck/cwv-field-vs-lab)** | CrUX (real users) vs Lighthouse (lab), divergence flagged + explained | ✅ **Shipped** |
+| **[schema-gap](https://github.com/seoprocheck/schema-gap)** | Diff your structured data against the pages outranking you | ✅ **Shipped** |
+| **[bulk-schema-validator](https://github.com/seoprocheck/bulk-schema-validator)** | Validate JSON-LD across a whole sitemap — 17 rich-result types | ✅ **Shipped** |
+| **[log-crawl-analyzer](https://github.com/seoprocheck/log-crawl-analyzer)** | Crawl-budget report from server logs — search + AI bots, waste % | ✅ **Shipped** |
+| **ai-overview-checker** | Which of your keywords trigger AI Overviews — and are you cited | 📋 Planned |
+| **geo-visibility-tracker** | Share-of-voice inside ChatGPT/Perplexity/Gemini answers over time | 📋 Planned |
 
-<sub>Full roadmap of 20 tools tracked in the repositories tab. Built in public — starring a repo bumps it up the queue.</sub>
+<sub>10 CLI tools shipped, 41 more live in the browser hub — full roadmap in the repositories tab. Built in public — starring a repo bumps it up the queue.</sub>
 
 ---
 
