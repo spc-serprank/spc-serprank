@@ -53,10 +53,10 @@ A growing set of single-purpose tools across the modern search stack. **Shipped*
 
 | Tool | What it does | Status |
 |---|---|---|
-| **ai-crawler-audit** | Which AI bots your `robots.txt` really allows/blocks | ✅ **Shipped** |
-| **llms-txt-kit** | Generate + validate the emerging `llms.txt` standard | 🔨 Building |
-| **hreflang-check** | Validate hreflang reciprocity & `x-default` across a sitemap | 🔨 Building |
-| **content-decay** | Flag pages bleeding impressions — with *enrich, don't prune* guidance | 📋 Planned |
+| **[ai-crawler-audit](https://github.com/spc-serprank/ai-crawler-audit)** | Which of 27 AI bots your `robots.txt` really allows/blocks | ✅ **Shipped** |
+| **[llms-txt-kit](https://github.com/spc-serprank/llms-txt-kit)** | Validate + generate the emerging `llms.txt` standard | ✅ **Shipped** |
+| **[hreflang-check](https://github.com/spc-serprank/hreflang-check)** | Language-aware hreflang reciprocity validator | ✅ **Shipped** |
+| **content-decay** | Flag pages bleeding impressions — with *enrich, don't prune* guidance | 🔨 Building |
 | **serp-schema-gap** | Compare your schema against the pages outranking you | 📋 Planned |
 | **redirect-chain-fixer** | Find chains/loops, output ready-to-paste `.htaccess`/nginx rules | 📋 Planned |
 | **cwv-field-vs-lab** | CrUX (real users) vs Lighthouse (lab), divergence flagged | 📋 Planned |
